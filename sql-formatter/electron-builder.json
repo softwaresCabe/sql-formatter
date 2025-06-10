@@ -1,0 +1,26 @@
+{
+    "productName": "My Electron App",
+    "appId": "com.example.myapp",
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+      "build/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "rpm"
+      ]
+    }
+  }
