@@ -1,0 +1,4 @@
+[build]
+base = "sql-formatter"
+command = "npm install && npm run build"
+publish = "sql-formatter/build"
